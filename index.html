@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <h1>Prueba</h1>
     <h2>Prueba2</h2>
-</body>
+    <script>
+      (function (d, t, u, s, c, f) {
+        f = function (m) {
+          m = new Date();
+          return (
+            m.getFullYear() +
+            "" +
+            (m.getMonth() + 1) +
+            "" +
+            m.getDate() +
+            "T" +
+            m.getHours() +
+            "" +
+            m.getMinutes() +
+            "" +
+            m.getSeconds()
+          );
+        };
+        u =
+          "https://widgets-static.embluemail.com/accounts/47906108133E23A95/scripts/sw_4790.js?ts=" +
+          f();
+        s = d.createElement(t);
+        s.async = 1;
+        s.src = u;
+        c = d.getElementsByTagName(t)[0];
+        c.parentNode.insertBefore(s, c);
+      })(document, "script");
+    </script>
+  </body>
 </html>
