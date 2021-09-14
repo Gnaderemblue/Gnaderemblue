@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ShoesShop</title>
   </head>
 
   <body>
-    <h1>Prueba</h1>
-    <h2>Hola</h2>
-    <h2>Prueba2</h2>
+    <h1>ShoesShop</h1>
+    <tr>
+      <td>Inicio</td>
+      <td>Productos</td>
+      <td>Quienes somos</td>
+      <td>Contáctanos</td>
+    </tr>
     <script>
       (function (d, t, u, s, c, f) {
         f = function (m) {
@@ -45,7 +49,7 @@
       import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
       // TODO: Add SDKs for Firebase products that you want to use
       // https://firebase.google.com/docs/web/setup#available-libraries
-    
+
       // Your web app's Firebase configuration
       // For Firebase JS SDK v7.20.0 and later, measurementId is optional
       const firebaseConfig = {
@@ -55,9 +59,9 @@
         storageBucket: "german-309d0.appspot.com",
         messagingSenderId: "154785075371",
         appId: "1:154785075371:web:90a6de5583125da844e7ee",
-        measurementId: "G-JGCW0XB4QM"
+        measurementId: "G-JGCW0XB4QM",
       };
-    
+
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
       const analytics = getAnalytics(app);
