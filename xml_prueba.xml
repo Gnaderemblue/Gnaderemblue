@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <productos_german>      
+        <producto>
+            <nombre>Zapatos 1510</nombre>
+            <referencia>1510</referencia>
+            <marca>Nike</marca>
+            <precio>150000</precio>
+        </producto>
+        <producto>
+            <nombre>Zapatos 5050</nombre>
+            <referencia>5050</referencia>
+            <marca>Nike</marca>
+            <precio>169000</precio>
+        </producto>
+        <producto>
+            <nombre>Zapatilla Dragon</nombre>
+            <referencia>Dragon</referencia>
+            <marca>Adidas</marca>
+            <precio>209000</precio>
+        </producto>
+    </productos_german> 
+</root>
