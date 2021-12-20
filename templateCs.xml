@@ -1,0 +1,53 @@
+<!-- El archivo debe empezar con un tag <xml> donde se declara el formato del archivo
+Agregar esta porción de código: <?xml version=»1.0″ encoding=»UTF-8″?>
+La codificación es únicamente UTF-8 -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Es fundamental y obligatorio que el contenido del XML esté encerrado dentro de una etiqueta madre <root> o similar. -->
+<root>
+    <productsParent>
+        <product>
+            <product_id>123456</product_id>
+            <name>Xiaomi M8</name>
+            <category>tech, phones</category>
+            <price>500</price>
+            <price_with_vat>200</price_with_vat>
+            <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ab sunt, id voluptates minima minus rerum repudiandae ipsam debitis vel perspiciatis unde harum magni sequi dignissimos totam consequuntur? Architecto, fuga.</description>
+            <stock>Yes</stock>
+            <url_image>https://misitio.com/images/xiaomi.png</url_image>
+            <link>https://misitio.com/m8.html</link>
+        </product>
+        <product>
+            <product_id>7890456</product_id>
+            <name>Iphone XS</name>
+            <category>tech, phones</category>
+            <price>1000</price>
+            <price_with_vat>999</price_with_vat>
+            <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ab sunt, id voluptates minima minus rerum repudiandae ipsam debitis vel perspiciatis unde harum magni sequi dignissimos totam consequuntur? Architecto, fuga.</description>
+            <stock>No</stock>
+            <url_image>https://misitio.com/images/iphone.png</url_image>
+            <link>https://misitio.com/xs.html</link>
+        </product>
+        <product>
+            <product_id>556699</product_id>
+            <name>Samsung Gear Watch</name>
+            <category>Watch, IA</category>
+            <price>721</price>
+            <price_with_vat>721</price_with_vat>
+            <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ab sunt, id voluptates minima minus rerum repudiandae ipsam debitis vel perspiciatis unde harum magni sequi dignissimos totam consequuntur? Architecto, fuga.</description>
+            <stock>Yes</stock>
+            <url_image>https://misitio.com/images/gear.png</url_image>
+            <link>https://misitio.com/gear_watch.html</link>
+        </product>
+        <product>
+            <product_id>1111</product_id>
+            <name>Drone XL</name>
+            <category>Hobbie, Tech, Toy</category>
+            <price>1500</price>
+            <price_with_vat>1399</price_with_vat>
+            <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ab sunt, id voluptates minima minus rerum repudiandae ipsam debitis vel perspiciatis unde harum magni sequi dignissimos totam consequuntur? Architecto, fuga.</description>
+            <stock>Yes</stock>
+            <url_image>https://misitio.com/images/drone.png</url_image>
+            <link>https://misitio.com/drone.html</link>
+        </product>
+    </productsParent>
+</root>
